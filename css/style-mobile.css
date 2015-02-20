@@ -208,9 +208,9 @@ input#contact-submit-dugme {
 .callbacks_nav {
   position: absolute;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
-  top: 15%;
+  top: 23%;
   left: 0;
-  opacity: 0.7;
+  opacity: 0.3;
   z-index: 3;
   text-indent: -9999px;
   overflow: hidden;
@@ -250,4 +250,22 @@ input#contact-submit-dugme {
 p {
 	padding-left: 15px;
 	padding-right: 15px;
+}
+body {
+    text-align: center !important;
+
+}
+.ui-page-theme-b {
+    text-shadow: none !important;
+}
+.velikodugme {
+    height: 40px;
+    line-height: 40px;
+}
+.ui-btn {
+    border-radius: 0px !important;
+    border-color: none !important;
+}
+h2 {
+    color: #95D231;
 }
