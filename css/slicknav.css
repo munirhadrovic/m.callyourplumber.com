@@ -77,6 +77,8 @@
     margin:2px 5px;
     text-decoration:none;
     color:#fff;
+    background-color: #95D231;
+    text-align: center;
 }
 .slicknav_nav .slicknav_item a,
 .slicknav_nav .slicknav_parent-link a {
@@ -89,12 +91,13 @@
     border-radius: 6px;
     background:#ccc;
     color:#fff;
+
 }
 .slicknav_nav a:hover{
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
-    background:#ccc;
+    background:#00A5E7;
     color:#222;
 }
 .slicknav_nav .slicknav_txtnode {

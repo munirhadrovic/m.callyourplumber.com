@@ -74,7 +74,7 @@
 
         // create menu bar
         $this.mobileNav.attr('class', prefix + '_nav');
-        menuBar = $('<a href="#page1" class="ui-btn ui-icon-arrow-l ui-corner-all ui-btn-icon-notext floatnav" data-transition="<?php echo $transitionefect ?>">left</a>'+'<div class="' + prefix + '_menu"></div>');
+        menuBar = $('<a href="#" data-rel="back" class="ui-btn ui-icon-arrow-l ui-corner-all ui-btn-icon-notext floatnav" data-transition="<?php echo $transitionefect ?>">left</a>'+'<div class="' + prefix + '_menu"></div>');
         $this.btn = $(
             ['<' + settings.parentTag + ' aria-haspopup="true" tabindex="0" class="' + prefix + '_btn ' + prefix + '_collapsed">',
                 '<span class="' + prefix + '_menutxt">' + settings.label + '</span>',

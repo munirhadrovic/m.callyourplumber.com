@@ -798,8 +798,8 @@ label.ui-btn {
 -----------------------------------------------------------------------------------------------------------*/
 /* Class ui-btn-corner-all deprecated in 1.4 */
 .ui-corner-all {
-	-webkit-border-radius: 				.3125em /*{global-radii-blocks}*/;
-	border-radius: 						.3125em /*{global-radii-blocks}*/;
+	-webkit-border-radius: 				0px /*{global-radii-blocks}*/;
+	border-radius: 						0px /*{global-radii-blocks}*/;
 }
 /* Buttons */
 .ui-btn-corner-all,
@@ -856,7 +856,7 @@ label.ui-btn {
 .ui-btn-icon-top:after,
 .ui-btn-icon-bottom:after,
 .ui-btn-icon-notext:after {
-	background-color: 					#666 /*{global-icon-color}*/;
+	background-color: 					#95D231 /*{global-icon-color}*/;
 	background-color: 					rgba(0,0,0,.3) /*{global-icon-disc}*/;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -919,7 +919,7 @@ html .ui-alt-icon .ui-radio-off:after {
 }
 .ui-alt-icon.ui-btn.ui-radio-on:after,
 .ui-alt-icon .ui-btn.ui-radio-on:after {
-	background-color: #000;
+	background-color: #fff;
 }
 /* Loader */
 .ui-icon-loading {
@@ -1123,8 +1123,8 @@ html .ui-body-b .ui-body-inherit,
 html body .ui-group-theme-b .ui-body-inherit,
 html .ui-panel-page-container-b {
 	background-color: #fff; /*{b-body-background-color}*/
-	border-color:	 		#1d1d1d /*{b-body-border}*/;
-	color: 					#fff /*{b-body-color}*/;
+	border-color:	 		#00A5E7; /*{b-body-border}*/
+	/*color: 					#fff /*{b-body-color}*/;
 	/*text-shadow: 0 /*{b-body-shadow-x}*/ 1px /*{b-body-shadow-y}*/ 0 /*{b-body-shadow-radius}*/ 	#111 /*{b-body-shadow-color}*/;
 }
 .ui-body-b {
@@ -1184,7 +1184,7 @@ html .ui-bar-b .ui-btn:hover,
 html .ui-body-b .ui-btn:hover,
 html body .ui-group-theme-b .ui-btn:hover,
 html head + body .ui-btn.ui-btn-b:hover {
-	background-color: 			#373737 /*{b-bhover-background-color}*/;
+	background-color: 			#00A5E7 /*{b-bhover-background-color}*/;
 	border-color:	 		#1f1f1f /*{b-bhover-border}*/;
 	color: 					#fff /*{b-bhover-color}*/;
 	text-shadow: 0 /*{b-bhover-shadow-x}*/ 1px /*{b-bhover-shadow-y}*/ 0 /*{b-bhover-shadow-radius}*/ #111 /*{b-bhover-shadow-color}*/;
