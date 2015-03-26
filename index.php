@@ -6,7 +6,7 @@
 	<!-- Test from Eclipse -->
 		
 		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
-
+		<title>Cleveland plumbers and plumbing. Drain clearing, drain cleaning, sewer and plumbing experts of Cleveland</title>
 		<script src="js/jquery-1.11.2.js"></script>
 		<script>
 		    $(document).on("mobileinit", function(evt) {
@@ -119,7 +119,7 @@
 		<div id="header-image" data-role="header" data-theme="<?php echo $theme ?>" data-position="fixed">
 		    <h1><a href="#page1"><img src="img/logo.png" alt="LOGO"></a></h1>
 		</div>
-		<div data-role="footer" data-theme="<?php echo $theme ?>">
+		<div data-role="footer" data-theme="<?php echo $theme ?>" data-position="fixed">
 		    <h1>Powered By <a href="http://mobilegrows.com">MobileGrows</a> | <a href="http://callyourplumber.com/" rel="external">Desktop Site</a></h1>
 		</div>
 		<!-- page 1 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
@@ -210,16 +210,16 @@
 					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#home" data-transition="<?php echo $transitionefect ?>">About</a></div>
 				</div>
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#ourteam" data-transition="<?php echo $transitionefect ?>">Residental</a></div>
+					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#home" data-transition="<?php echo $transitionefect ?>">Residental</a></div>
 				</div>
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#patientinfo" data-transition="<?php echo $transitionefect ?>">Commercial</a></div>
+					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#home" data-transition="<?php echo $transitionefect ?>">Commercial</a></div>
 				</div>
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#services" data-transition="<?php echo $transitionefect ?>">Testimonials</a></div>
+					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#home" data-transition="<?php echo $transitionefect ?>">Testimonials</a></div>
 				</div>
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#patientform" data-transition="<?php echo $transitionefect ?>">Coupons</a></div>
+					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#home" data-transition="<?php echo $transitionefect ?>">Coupons</a></div>
 				</div>
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
 					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-mail ui-btn-icon-left buttons-radius" href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact Us</a></div>
@@ -242,16 +242,19 @@
 					<section id="navigation-menu-home">
 						<ul id="menu-home">
                             <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
-							<li><a href="#ourteam" data-transition="<?php echo $transitionefect ?>">Residental</a></li>
-							<li><a href="#patientinfo" data-transition="<?php echo $transitionefect ?>">Commercial</a></li>
-							<li><a href="#services" data-transition="<?php echo $transitionefect ?>">Testimonials</a></li>
-							<li><a href="#patientform" data-transition="<?php echo $transitionefect ?>">Coupons</a></li>
+							<li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Residental</a></li>
+							<li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Commercial</a></li>
+							<li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Testimonials</a></li>
+							<li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Coupons</a></li>
 							<li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact Us</a></li>
 						</ul>
 					</section>
 					<a name="myAnchor" id="myAnchor"></a>
+					
+					<p>This is only a <b>PREVIEW</b> version of your Mobile Website.</p>
+                    <p>Please contatact our official Sales Representative for <b>Full Functional Version.</b></p>
 
-                    <img src="img/slider-images/05.jpg" alt="">
+                    <!--<img src="img/slider-images/05.jpg" alt="">
 						<h2>Welcome to our website!</h2>
 
                        	 <p><b>A-Z Plumbing & Drain Service offers</b> full residential and commercial plumbing and drain cleaning services. Our plumbers are available 24-hours a day and are among the most highly trained in the industry.</p>
@@ -281,7 +284,7 @@
 
 					<img src="img/creditcards-accepted.gif" alt="">
 
-					<a href="#myAnchor" class="dmBackToTop ui-corner-all" id="dmBackToTop" style="opacity: 1; visibility: visible;" onclick="$.mobile.silentScroll(0)"></a>
+					<a href="#myAnchor" class="dmBackToTop ui-corner-all" id="dmBackToTop" style="opacity: 1; visibility: visible;" onclick="$.mobile.silentScroll(0)"></a> -->
 
 
 					<!--<a href="#" onclick="$.mobile.silentScroll(0)" data-role="button">Back to Top</a>-->
@@ -301,11 +304,11 @@
 					<section id="navigation-menu-contact">
 							<ul id="menu-contact">
 								<li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
-                                <li><a href="#home" data-transition="<?php echo $transitionefect ?>">About</a></li>
-                                <li><a href="#ourteam" data-transition="<?php echo $transitionefect ?>">Residental</a></li>
-                                <li><a href="#patientinfo" data-transition="<?php echo $transitionefect ?>">Commercial</a></li>
-                                <li><a href="#services" data-transition="<?php echo $transitionefect ?>">Testimonials</a></li>
-                                <li><a href="#patientform" data-transition="<?php echo $transitionefect ?>">Coupons</a></li>
+                                <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">About</a></li>
+                                <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Residental</a></li>
+                                <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Commercial</a></li>
+                                <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Testimonials</a></li>
+                                <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Coupons</a></li>
 							</ul>
 					</section>	
 					<div>
